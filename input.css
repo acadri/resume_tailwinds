@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.profile-pic {
+  transition: transform 0.3s ease;
+}
+
+.profile-pic:hover {
+  transform: scale(1.05);
+}
+
+.job:hover {
+  transform: translateX(5px);
+}
+
+.download-btn:hover {
+  transform: translateY(-2px);
+}
+
+@media print {
+  .download-section {
+    display: none;
+  }
+}

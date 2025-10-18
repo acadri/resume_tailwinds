@@ -1,0 +1,16 @@
+{
+  "name": "resume-webpage-tailwind",
+  "version": "1.0.0",
+  "description": "A responsive resume built with Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.0"
+  }
+}
